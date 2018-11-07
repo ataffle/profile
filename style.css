@@ -1,0 +1,142 @@
+body {
+  background-color: rgba(228, 230, 228);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+h1 {
+  color: #F67A20;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2, h3 {
+  font-weight: lighter;
+}
+
+tr {
+  vertical-align: center;
+}
+
+td {
+  padding-left: 10px;
+  padding-bottom: 15px;
+  text-align: justify;
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: #7d7d7d;
+}
+
+a:hover {
+  color: #F67A20;
+}
+
+.container {
+  /* This sets the width */
+  width: 700px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  padding: 20px 10px;
+  background: white;
+  border: solid, 1px;
+  border-radius: 5px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  /*box-shadow*/
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-orange {
+  background-color: rgba(246, 122, 36, 0.5);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin: 20px auto;
+  width: 100px;
+}
+
+.btn-orange a {
+  color: white;
+  font-weight: 500;
+}
+
+.btn-orange:hover {
+  background-color: rgba(246, 122, 36, 1)
+}
+
+.btn-orange a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+#img-profile {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc
+}
+
+#img-cities {
+width: 80px;
+height: 80px;
+}
